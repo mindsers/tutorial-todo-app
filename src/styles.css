@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+.App > header {
+  background-color: #2980b9;
+}
+
+.App .todolist-container {
+  margin: 10px;
+}
+
+.App button {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  margin: 5px;
+  padding: 5px;
+}
+
+.TodoList {
+  margin: 10px 0;
+}
+
+.TodoList header {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.TodoList button {
+  white-space: nowrap;
+}
+
+.TodoList input[type="text"] {
+  border-radius: 3px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  width: calc(100% - 10px);
+}
+
+.TodoList .fallback-message,
+.TodoList h1,
+.Todo p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  padding: 0 10px;
+  width: calc(100% - 10px);
+}
+
+.TodoList h1 {
+  font-size: 1em;
+  padding: 0;
+}
+
+.Todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+.Todo input[type="text"] {
+  margin: 5px;
+}
+
+.modal-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+}
